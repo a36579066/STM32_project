@@ -1,0 +1,29 @@
+#ifndef CONSOLE_GAME_CONFIG_H
+#define CONSOLE_GAME_CONFIG_H
+
+#define GAME_GROUND_Y          200U
+#define GAME_WORLD_WIDTH       320U
+#define GAME_HERO_WIDTH        24U
+#define GAME_HERO_HEIGHT       32U
+#define GAME_FRAME_INTERVAL_MS 20U
+#define GAME_JUMP_HEIGHT       72U
+#define GAME_JUMP_DURATION_MS  560U
+#define GAME_JUMP_BUFFER_MS    150U
+#define GAME_HUD_HEIGHT        36U
+#define GAME_HERO_MIN_X        12U
+#define GAME_HERO_MAX_X        (GAME_WORLD_WIDTH - GAME_HERO_WIDTH)
+#define GAME_HERO_SPEED        160U
+#define GAME_OBJECT_CAPACITY   20U
+#define GAME_START_LIVES       3U
+#define GAME_HIT_GRACE_MS      1200U
+#define GAME_COMBO_WINDOW_MS   1800U
+#define GAME_MAX_COMBO         5U
+#define GAME_COINS_PER_SHIELD  10U
+#define GAME_LEVEL_DURATION_MS 12000U
+#define GAME_MAX_LEVEL         9U
+#define GAME_MAX_SCORE         99999U
+#define GAME_FP_ONE            256
+
+#define GAME_SCENE_SKY_COLOR 0x0843U
+
+#endif /* CONSOLE_GAME_CONFIG_H */

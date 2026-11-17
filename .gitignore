@@ -1,0 +1,33 @@
+# Generated firmware builds and editor indexes.
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/compile_commands.json
+**/.cache/
+/debug/openocd.log
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+
+# Vendor reference PDFs are linked from the docs and must not be redistributed.
+/docs/*.pdf
+# Local reference documents can be restored using ref/download_refs.sh.
+/ref/*.pdf
+/ref/.download.*
+/ref/*.part
+
+# Downloaded Newlib reference source and its archive.
+/ref/newlib/
+
+# Local measurements: commit reviewed results and selected evidence deliberately.
+/Tests/logs/*
+!/Tests/logs/.gitkeep
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
